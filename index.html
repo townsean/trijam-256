@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Three Seconds | Trijam #256</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=Pacifico&family=Poppins:wght@400;700&family=Sigmar+One&display=swap" rel="stylesheet">
         <link href="styles/style.css" rel="stylesheet">
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
     </head>
@@ -12,7 +15,37 @@
         <header>
             <a href="https://github.com/townsean/trijam-256">Three Seconds | Trijam #256</a>
         </header>
-        <main></main>
+        <main>
+            <!-- Start Game Scene -->
+            <section id="start-scene">
+                <div class="scene">
+                    <h1>Three Seconds</h1>
+                    <h2 id="countdown-heading" class="game-timer">00:03</h2>
+                    <p>You have <strong>3 seconds</strong> to correctly identify the hidden <strong>3-lettered</strong> animal. 
+                        Can you correctly identify the animal in time? Let's find out!</p>
+                    <button id="start-game-button" class="state-game-button">Start Game</button>
+                </div>
+            </section>
+            <!-- Play Game Scene -->
+            <section id="play-scene" class="hidden">
+                <div class="scene">
+                    <h2 id="countdown-timer" class="game-timer">00:03</h2>
+                    <canvas id="pixelated-canvas"></canvas>
+                    <section id="multiple-choice-button-group"></section>
+                </div>
+            </section>
+            <!-- End Game Scene -->
+            <section id="end-scene" class="hidden">
+                <div class="scene">
+                    <h1 id="game-over-heading"></h1>
+                    <figure>
+                        <img id="image">
+                        <figcaption id="image-caption"></figcaption>
+                    </figure>
+                    <button id="restart-game-button" class="state-game-button">Restart Game</button>
+                </div>
+            </section>
+        </main>
         <footer>
             <a href="https://twitter.com/thecodingcouple">A game by Ashley <img src="favicon.ico"> | @thecodingcouple</a>
         </footer>

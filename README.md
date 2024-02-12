@@ -5,7 +5,7 @@ Source code for Ashley's Trijam 156 entry. The theme is "Only Three."
 
 ## Synopsis
 
-[TBD]
+Three Seconds is a speed and image recognition game. Players have three seconds to guess the main content of the image.
 
 ## Project Setup
 
@@ -25,6 +25,10 @@ python3 -m http.server 8000
 
 * Vanilla JS
 * Visual Studio Code
+
+## Useful Resources
+
+* [HTML5 Image Pixelator](https://joekarlsson.com/portfolio/pixelate-js-html5-image-pixelator/)
 
 ## Third Party Assets
 

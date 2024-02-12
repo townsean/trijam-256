@@ -1,0 +1,59 @@
+{
+    "animals": [
+        {
+            "name": "dog",
+            "assetUrl": "assets/dog.jpg",
+            "originalSourceUrl": "https://unsplash.com/photos/black-and-white-short-coated-dog-N04FIfHhv_k"
+        },
+        {
+            "name": "cat",
+            "assetUrl": "assets/cat.jpg",
+            "originalSourceUrl": "https://unsplash.com/photos/black-and-white-cat-lying-on-brown-bamboo-chair-inside-room-gKXKBY-C-Dk"
+        },
+        {
+            "name": "pig",
+            "assetUrl": "assets/hog.jpg",
+            "originalSourceUrl": "https://unsplash.com/photos/pig-lying-on-blue-metal-fence-SIHqctMqed8"
+        },
+        {
+            "name": "rat",
+            "assetUrl": "assets/rat.jpg",
+            "originalSourceUrl": "https://unsplash.com/photos/a-rat-sitting-on-a-piece-of-wood-QxW15BmJxOQ"
+        },
+        {
+            "name": "bat",
+            "assetUrl": "assets/bat.jpg",
+            "originalSourceUrl": "https://unsplash.com/photos/brown-bat-_f8IZ0gGS6E"
+        },
+        {
+            "name": "bug",
+            "assetUrl": "assets/bug.jpg",
+            "originalSourceUrl": "https://unsplash.com/photos/orange-and-black-bug-on-green-leaf-szB0t0I1FLA"
+        },
+        {
+            "name": "eel",
+            "assetUrl": "assets/eel.jpg",
+            "originalSourceUrl": "https://unsplash.com/photos/gray-snake-photography-yBraeHiDXi8"
+        },
+        {
+            "name": "fly",
+            "assetUrl": "assets/fly.jpg",
+            "originalSourceUrl": "https://unsplash.com/photos/brown-housefly-f98dJ8VkuTk"
+        },
+        {
+            "name": "hen",
+            "assetUrl": "assets/hen.jpg",
+            "originalSourceUrl": "https://unsplash.com/photos/brown-hen-on-green-grass-during-daytime-4W8FgDVyUME"
+        },
+        {
+            "name": "gnu",
+            "assetUrl": "assets/gnu.jpg",
+            "originalSourceUrl": "https://unsplash.com/photos/herd-of-brown-animals--Yu8GhTbbmc"
+        },
+        {
+            "name": "emu",
+            "assetUrl": "assets/emu.jpg",
+            "originalSourceUrl": "https://unsplash.com/photos/black-and-gray-bird-6AI-OcfLkwA"
+        }
+    ]
+}
