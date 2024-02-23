@@ -192,7 +192,7 @@ function endGame(didPlayerWin, animal) {
     } else if (!didPlayerWin) {
         gameOverHeading.innerText = "Wrong animal!"
     } else {
-        gameOverHeading.innerText = "You guess correctly!"
+        gameOverHeading.innerText = "You guessed correctly!"
     }
 
     // Switch from play game scene to end game scene

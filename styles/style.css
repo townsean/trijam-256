@@ -54,8 +54,12 @@ footer a {
 
 img {
     max-width: 100vw;
-    max-height: 50vh;
     object-fit: contain;
+}
+
+canvas,
+img {
+    max-height: 40vh;
 }
 
 figcaption {

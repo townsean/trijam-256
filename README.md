@@ -7,6 +7,8 @@ Source code for Ashley's Trijam 156 entry. The theme is "Only Three."
 
 Three Seconds is a speed and image recognition game. Players have three seconds to guess the main content of the image.
 
+![Three Seconds Gameplay](assets/game-preview.gif)
+
 ## Project Setup
 
 Run with local web server
